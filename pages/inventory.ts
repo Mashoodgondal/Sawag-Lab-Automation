@@ -1,24 +1,7 @@
-// import { Page, expect } from "@playwright/test";
-
-// export class InventoryPage {
-//   readonly page: Page;
-
-//   constructor(page: Page) {
-//     this.page = page;
-//   }
-
-//   async verifyInventoryPageVisible() {
-//     await expect(this.page.getByText("Products")).toBeVisible();
-//   }
-// }
-
-
-
-
-
-
-
 import { Page, expect } from "@playwright/test";
+
+
+
 
 export class InventoryPage {
   readonly page: Page;
