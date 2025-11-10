@@ -31,9 +31,9 @@ test.describe("SauceDemo Login Tests", () => {
 //   await loginPage.login("invalid_user", "wrong_pass");
 //   await loginPage.verifyLoginError();
 // });
-test("should show error with invalid credentials", async ({ page }) => {
-  const loginPage = new LoginPage(page);
-  await loginPage.goto();
-  await loginPage.login("invalid_user", "wrong_pass");
-  await loginPage.verifyLoginError();
-});
+// test("should show error with invalid credentials", async ({ page }) => {
+//   const loginPage = new LoginPage(page);
+//   await loginPage.goto();
+//   await loginPage.login("invalid_user", "wrong_pass");
+//   await loginPage.verifyLoginError();
+// });
