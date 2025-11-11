@@ -35,15 +35,3 @@ async VerifyError(){
 
 
 
-
-
-// async FillForm(firsName:string,lastName:string,Zip:any){
-//    await this.page.fill('#first-name',firsName)
-//    await this.page.fill('#last-name',lastName)
-//    await this.page.fill('#postal-code',Zip )
-//     }
-// async FillForm(firsName:string,lastName:string,Zip:any){
-//    await this.page.fill('#first-name',firsName)
-//    await this.page.fill('#last-name',lastName)
-//    await this.page.fill('#postal-code',Zip )
-//     }
