@@ -6,9 +6,9 @@ export class CheckoutPage {
     constructor(page:Page){
         this.page = page
     }
- async goto(){
-    await this.page.goto('https://www.saucedemo.com/checkout-step-one.html')
- }
+//  async goto(){
+//     await this.page.goto('https://www.saucedemo.com/checkout-step-one.html')
+//  }
  async CheckoutPageVisible(){
     await expect(this.page.getByText("Checkout: Your Information")).toBeVisible()
  }
@@ -29,9 +29,3 @@ async VerifyError(){
 }
 
 }
-
-
-
-
-
-

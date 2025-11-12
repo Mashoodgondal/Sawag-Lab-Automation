@@ -21,6 +21,3 @@ export class LoginPage {
     await expect(this.page.getByText("Epic sadface")).toBeVisible();
   }
 }
-
-
-

@@ -9,7 +9,7 @@ export class InventoryPage {
   constructor(page: Page) {
     this.page = page;
   }
-
+  
   async verifyInventoryPageVisible() {
     await expect(this.page.getByText("Products")).toBeVisible();
   }
