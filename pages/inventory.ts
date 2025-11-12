@@ -9,13 +9,13 @@ export class InventoryPage {
   constructor(page: Page) {
     this.page = page;
   }
-  
+
   async verifyInventoryPageVisible() {
     await expect(this.page.getByText("Products")).toBeVisible();
   }
 
   async addProductToCart(productName: string) {
-    // Example productName: "Sauce Labs Backpack"
+    
     await this.page.locator(`text=${productName}`).waitFor();
     const addButton = this.page.locator(`xpath=//div[text()="${productName}"]/../../..//button`);
     await addButton.click();
