@@ -47,3 +47,11 @@ test.beforeEach('run before every test',async({page})=>{
 //   await checkoutPage.VerifyError()
 
 // })
+
+// test('check error visibulity',async({page})=>{
+    
+//   await checkoutPage.FillForm("ani","","se32")
+//   await checkoutPage.ClickButton()
+//   await checkoutPage.VerifyError()
+
+// })
