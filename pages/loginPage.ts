@@ -16,11 +16,8 @@ export class LoginPage {
     await this.page.fill("#password", password);
     await this.page.click("#login-button");
   }
-
+  
   async verifyLoginError() {
     await expect(this.page.getByText("Epic sadface")).toBeVisible();
   }
 }
-
-
-
