@@ -41,3 +41,13 @@ async VerifyError(){
 // async VerifyError(){
 //    await expect(this.page.getByText('Error')).toBeVisible()
 // }
+// async ClickButton(){
+//    await this.page.locator('#continue').click()
+//  }
+// async CheckNextPagevisibulity(){
+//    await expect(this.page.getByText('Checkout: Overview')).toBeVisible()
+
+// }
+// async VerifyError(){
+//    await expect(this.page.getByText('Error')).toBeVisible()
+// }
