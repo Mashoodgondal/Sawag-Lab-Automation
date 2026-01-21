@@ -23,31 +23,3 @@ export class LoginPage {
 }
 
 
-
-// await this.page.click("#login-button");
-// }
-
-// async verifyLoginError() {
-//   await expect(this.page.getByText("Epic sadface")).toBeVisible();
-// }
-
-// await this.page.click("#login-button");
-// }
-
-// async verifyLoginError() {
-//   await expect(this.page.getByText("Epic sadface")).toBeVisible();
-// }
-
-// await this.page.click("#login-button");
-// }
-
-// async verifyLoginError() {
-//   await expect(this.page.getByText("Epic sadface")).toBeVisible();
-// }
-
-// await this.page.click("#login-button");
-// }
-
-// async verifyLoginError() {
-//   await expect(this.page.getByText("Epic sadface")).toBeVisible();
-// }
