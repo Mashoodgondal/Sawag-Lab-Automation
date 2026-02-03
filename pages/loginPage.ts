@@ -11,11 +11,11 @@ export class LoginPage {
     await this.page.goto("https://www.saucedemo.com/");
   }
 
-  async login(username: string, password: string) {
-    await this.page.fill("#user-name", username);
-    await this.page.fill("#password", password);
-    await this.page.click("#login-button");
-  }
+  // async login(username: string, password: string) {
+  //   await this.page.fill("#user-name", username);
+  //   await this.page.fill("#password", password);
+  //   await this.page.click("#login-button");
+  // }
   
   async verifyLoginError() {
     await expect(this.page.getByText("Epic sadface")).toBeVisible();
@@ -23,3 +23,12 @@ export class LoginPage {
 }
 
 
+
+
+
+
+// async login(username: string, password: string) {
+  //   await this.page.fill("#user-name", username);
+  //   await this.page.fill("#password", password);
+  //   await this.page.click("#login-button");
+  // }
