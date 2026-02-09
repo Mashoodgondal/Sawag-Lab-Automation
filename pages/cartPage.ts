@@ -15,12 +15,12 @@ export class CartPage {
     await expect(this.page.locator(`text=${productName}`)).toBeVisible();
   }
 
-  async removeProduct(productName: string) {
-    const removeButton = this.page.locator(`xpath=//div[text()="${productName}"]/../../..//button`);
-    await removeButton.click();
-  }
-  async goToCheckout(){
-    const button = this.page.locator('#checkout')
-    await button.click()
-  }
+  // async removeProduct(productName: string) {
+  //   const removeButton = this.page.locator(`xpath=//div[text()="${productName}"]/../../..//button`);
+  //   await removeButton.click();
+  // }
+  // async goToCheckout(){
+  //   const button = this.page.locator('#checkout')
+  //   await button.click()
+  // }
 }
